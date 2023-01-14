@@ -33,7 +33,7 @@ class _AnswerPageState extends State<AnswerPage> {
             child: TextButton(
               onPressed: () {
                 setState(() {
-                  imageNum = Random().nextInt(5) + 1;
+                  imageNum = Random().nextInt(4) + 1;
                   print('button_pressed = $imageNum');
                 });
               },
